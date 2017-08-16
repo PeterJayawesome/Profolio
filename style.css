@@ -1,0 +1,112 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.pagetop{
+  padding: 20px;
+  width: auto;
+  background-color: white;
+}
+#name{
+  font-size: 32px;
+  display: inline-block;
+  /*text-align: left;*/
+}
+#master{
+  font-size: 24px;
+  display: inline-block;
+  /*text-align: right;*/
+  position: relative;
+  left: 380px;
+}
+.background{
+  background: silver; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(maroon, black); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(maroon, black); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(maroon, black); /* For Firefox 3.6 to 15 */
+  background: radial-gradient(maroon, black); /* Standard syntax */
+  padding: 10px;
+  width: 890px;
+}
+.part1{
+  display:inline-block;
+  /*padding: 20px;*/
+}
+#portrait{
+  width: auto;
+  height: 250px;
+  border: 2.5px solid silver;
+  vertical-align: top;
+  margin: 20px;
+}
+.about{
+  display: inline-block;
+  background-color: rgba(255,255,255,0.8);
+  width: 410px;
+  height: 255px;
+  margin: 20px;
+  vertical-align: top;
+  /*padding: 5px;*/
+  /*border: 3px solid white;*/
+}
+#sp{
+  margin: 5px;
+}
+#continue_read{
+  margin: 5px;
+  vertical-align: bottom;
+}
+.example{
+  height: 400px;
+  /*padding: 5px;*/
+}
+.title{
+  font-size: 20px;
+  color: white;
+  background: grey;
+  background: -webkit-linear-gradient(silver, grey, silver); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(silver, grey, silver); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(silver, grey, silver); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(silver, grey, silver); /* Standard syntax */
+  padding: 5px;
+}
+
+.content{
+  margin: 20px 20px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  background-color: rgba(255,255,255,0.8);
+}
+.ex_pic{
+  width: 250px;
+  height: auto;
+}
+.pi{
+  margin: 10px;
+}
+.tcoin{
+  width: 35px;
+  height: 35px;
+  margin: 5px 0px 0px 5px;
+}
+.button{
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px auto;
+  display: block;
+  box-shadow: 2px 2px 2px grey;
+}
+.pagebottom{
+  width: 890px;
+  display: block;
+  text-align: center;
+}
+.coin{
+  width: 16px;
+  height: 16px;
+}
